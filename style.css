@@ -9,15 +9,18 @@
 }
 
 body {
-	font-family: var(--title-font);
+	font-family: var(--copy-font);
 	font-size: 10px;
 	background-color: var(--color-two);
-	text-align: center;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+header {
+	text-align: center;
 }
 
 .site-title {
@@ -72,4 +75,5 @@ img {
 	line-height: 1.4;
 	color: var(--color-one);
 	padding: 0 var(--spacing) var(--spacing);
+	text-align: center;
 }
